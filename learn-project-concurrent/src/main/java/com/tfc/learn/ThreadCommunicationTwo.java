@@ -1,5 +1,8 @@
 package com.tfc.learn;
 
+/**
+ * CAS
+ */
 public class ThreadCommunicationTwo {
 	enum Ready {
 		T1, T2

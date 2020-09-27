@@ -20,7 +20,7 @@ public class LessonThree {
 
 	private static void sayTime(LessonThree lt, String str1, String str2) {
 		long begin=System.currentTimeMillis();
-		for(int i=0;i<1_0000_0000;i++) {
+		for(int i=0;i<100000000;i++) {
 			lt.lockEliminate(str1, str2);
 		}
 		System.err.println("Spend:"+(System.currentTimeMillis()-begin)+"ms");

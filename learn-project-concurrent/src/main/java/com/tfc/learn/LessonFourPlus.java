@@ -24,12 +24,12 @@ public class LessonFourPlus {
 	}
 	public static void main(String[] args) throws InterruptedException {
 		Thread t1=new Thread(()->{
-			for(long i=0;i<1_0000_0000;i++) {
+			for(long i=0;i<100000000;i++) {
 				arr[0].x=i;
 			}
 		});
 		Thread t2=new Thread(()->{
-			for(long i=0;i<1_0000_0000;i++) {
+			for(long i=0;i<100000000;i++) {
 				arr[1].x=i;
 			}
 		});

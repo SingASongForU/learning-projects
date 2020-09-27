@@ -9,10 +9,10 @@ import org.openjdk.jol.info.ClassLayout;
 public class LessonOne {
 	public static void main(String[] args) throws InterruptedException {
 		Object o=new Object();
-//		print(o);
+		print(o);
 //		o.hashCode();
 //		print(o);
-		printSyn(o);
+//		printSyn(o);
 
 	}
 	
