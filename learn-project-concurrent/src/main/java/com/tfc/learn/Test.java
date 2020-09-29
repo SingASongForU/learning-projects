@@ -1,5 +1,8 @@
 package com.tfc.learn;
 
+/**
+ * DCL µ¥Àý
+ */
 public class Test {
 
 	private volatile static Test test;
