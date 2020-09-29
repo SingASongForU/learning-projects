@@ -31,7 +31,6 @@ public class LessonFour {
 		t2.start();
 		t1.join();
 		t2.join();
-		System.err.println("Spend:"+(System.nanoTime()-begin)/100_0000+"ms");
-	}
+		System.err.println("Spend:"+(System.nanoTime()-begin)/100_0000+"ms");	}
 
 }

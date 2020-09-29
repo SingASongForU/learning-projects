@@ -4,26 +4,23 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * volatile¿É¼ûÐÔ
- * @author oracle
  *
+ * @author oracle
  */
 public class LessonTwo {
-	private boolean running = true;
+    private static boolean stopRequested=false;
 
-	public void serverRun() {
-		System.err.println("start...");
-		while (running) {
-			// doSth
-		}
-		System.err.println("end...");
-	}
+    public void  run(){
+        while(!stopRequested) {
+            System.err.println(1);
+        }
+    }
 
-	public static void main(String[] args) throws InterruptedException {
-		LessonTwo t = new LessonTwo();
-		new Thread(t::serverRun, "t1").start();
-		TimeUnit.SECONDS.sleep(1);
-		t.running = false;
-		System.err.println("endMain");
-	}
+
+    public static void main(String[] args) throws InterruptedException {
+        new Thread(new LessonTwo()::run,"testThread").start();
+        TimeUnit.SECONDS.sleep(1);
+        stopRequested = true;
+    }
 
 }
