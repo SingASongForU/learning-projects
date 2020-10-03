@@ -3,7 +3,6 @@ package com.tfc.learn;
 import java.util.concurrent.TimeUnit;
 
 /**
- * volatile¿É¼ûÐÔ
  *
  * @author oracle
  */

@@ -2,7 +2,6 @@ package com.tfc.learn;
 
 import org.openjdk.jol.info.ClassLayout;
 /**
- * 对象在内存中的布局
  * @author oracle
  *
  */

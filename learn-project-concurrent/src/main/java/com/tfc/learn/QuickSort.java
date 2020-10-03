@@ -2,9 +2,7 @@ package com.tfc.learn;
 
 
 public class QuickSort {
-	// Êý×é³¤¶È
 	private static final int LENGTH = 30;
-	// Ëæ»úÊý·¶Î§
 	private static final int ROUND = 100;
 
 	public static void quickSort(long[] arr, int low, int high) {
@@ -15,19 +13,19 @@ public class QuickSort {
 		}
 		i = low;
 		j = high;
-		// base¾ÍÊÇ»ù×¼Î»
+		// baseï¿½ï¿½ï¿½Ç»ï¿½×¼Î»
 		base = arr[low];
 
 		while (i < j) {
-			// ´ÓºóÍùÇ°ÕÒ
+			// ï¿½Óºï¿½ï¿½ï¿½Ç°ï¿½ï¿½
 			while (base <= arr[j] && i < j) {
 				j--;
 			}
-			// ´ÓÇ°ÍùºóÕÒ
+			// ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 			while (base >= arr[i] && i < j) {
 				i++;
 			}
-			// ÕâÊ±½«Ð¡µÄÊý½»»»µ½»ù×¼Êý×ó±ß£¬´óµÄÊý½»»»µ½»ù×¼ÊýÓÒ±ß
+			// ï¿½ï¿½Ê±ï¿½ï¿½Ð¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×¼ï¿½ï¿½ï¿½ï¿½ß£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×¼ï¿½ï¿½ï¿½Ò±ï¿½
 			if (i < j) {
 				t = arr[j];
 				arr[j] = arr[i];
@@ -35,18 +33,17 @@ public class QuickSort {
 			}
 
 		}
-		// ×îºó½«»ù×¼ÎªÓëiºÍjÏàµÈÎ»ÖÃµÄÊý×Ö½»»»
+		// ï¿½ï¿½ó½«»ï¿½×¼Îªï¿½ï¿½iï¿½ï¿½jï¿½ï¿½ï¿½Î»ï¿½Ãµï¿½ï¿½ï¿½ï¿½Ö½ï¿½ï¿½ï¿½
 		arr[low] = arr[j];
 		arr[j] = base;
-		// µÝ¹éµ÷ÓÃ×ó°ëÊý×é
+		// ï¿½Ý¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		quickSort(arr, low, j - 1);
-		// µÝ¹éµ÷ÓÃÓÒ°ëÊý×é
+		// ï¿½Ý¹ï¿½ï¿½ï¿½ï¿½ï¿½Ò°ï¿½ï¿½ï¿½ï¿½ï¿½
 		quickSort(arr, j + 1, high);
 	}
 	
 
 	/**
-	 * Éú³É²âÊÔÊý×é
 	 * @param length
 	 * @return
 	 */
@@ -59,7 +56,6 @@ public class QuickSort {
 	}
 	
 	/**
-	 *  ´òÓ¡Êý×é
 	 * @param arr
 	 */
 	private static void printArray(long[] arr) {

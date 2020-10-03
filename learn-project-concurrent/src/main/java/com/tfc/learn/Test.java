@@ -1,7 +1,6 @@
 package com.tfc.learn;
 
 /**
- * DCL µ¥Àý
  */
 public class Test {
 

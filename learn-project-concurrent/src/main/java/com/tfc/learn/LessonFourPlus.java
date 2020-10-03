@@ -2,8 +2,6 @@ package com.tfc.learn;
 
 
 /**
- * 缓存行为什么是8字节
- * 如何验证？
  * @author oracle
  *
  */

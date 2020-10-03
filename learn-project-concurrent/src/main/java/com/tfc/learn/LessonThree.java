@@ -1,12 +1,11 @@
 package com.tfc.learn;
 
 /**
- * -XX:+DoEscapeAnalysis -XX:-EliminateLocks ¹Ø±Õ
+ * -XX:+DoEscapeAnalysis -XX:-EliminateLocks ï¿½Ø±ï¿½
  *  
- * -XX:+DoEscapeAnalysis -XX:+EliminateLocks ¿ªÆô
+ * -XX:+DoEscapeAnalysis -XX:+EliminateLocks ï¿½ï¿½ï¿½ï¿½
  * 
  * 
- * ËøÏû³ýºÍËø´Ö»¯
  * @author oracle
  *
  */
