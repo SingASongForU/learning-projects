@@ -3,7 +3,7 @@ package com.tfc.learn;
 /**
  * 内存伪共享对性能的影响
  *
- * @author oracle
+ * @author xiefei
  */
 public class LessonFour {
     private static class Test {

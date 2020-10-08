@@ -1,6 +1,7 @@
 package com.tfc.learn;
 
 /**
+ * DCL单例+volatile
  */
 public class Test {
 

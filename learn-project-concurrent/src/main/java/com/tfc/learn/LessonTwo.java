@@ -4,7 +4,11 @@ import java.util.concurrent.TimeUnit;
 
 /**
  *
- * @author oracle
+ * @author xiefei
+ *
+ * 线程可见性测试
+ *
+ *
  */
 public class LessonTwo {
     private static boolean stopRequested=false;

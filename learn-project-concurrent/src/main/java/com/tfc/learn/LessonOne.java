@@ -2,7 +2,9 @@ package com.tfc.learn;
 
 import org.openjdk.jol.info.ClassLayout;
 /**
- * @author oracle
+ * @author xiefei
+ *
+ * java对象内存布局
  *
  */
 public class LessonOne {

@@ -1,12 +1,11 @@
 package com.tfc.learn;
 
 /**
- * -XX:+DoEscapeAnalysis -XX:-EliminateLocks �ر�
- *  
- * -XX:+DoEscapeAnalysis -XX:+EliminateLocks ����
+ * -XX:+DoEscapeAnalysis -XX:-EliminateLocks 锁消除
+ *
  * 
  * 
- * @author oracle
+ * @author xiefei
  *
  */
 public class LessonThree {
