@@ -1,6 +1,5 @@
 package com.tfc.learn.lock;
 
-import java.util.concurrent.TimeUnit;
 
 /**
  * jetty bug 字符串作为锁对象的隐患
@@ -8,8 +7,8 @@ import java.util.concurrent.TimeUnit;
  * @author xiefei
  */
 public class JettyDeadLock {
-    private String lock1="myLock";
-    private String lock2="myLock";
+    private final String lock1="myLock";
+    private final String lock2="myLock";
 
     public void lock1(){
         synchronized (lock1){
