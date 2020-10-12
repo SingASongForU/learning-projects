@@ -19,7 +19,6 @@ public class Test {
 		return test;
 	}
 	public static void main(String[] args) {
-		ThreadLocal<Object> tl=new ThreadLocal<Object>();
 		Thread a = new Thread(() -> {
 			System.err.println(Test.getInstance());
 		});

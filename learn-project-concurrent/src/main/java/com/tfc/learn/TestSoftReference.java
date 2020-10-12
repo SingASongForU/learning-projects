@@ -4,6 +4,7 @@ import java.lang.ref.SoftReference;
 import java.util.concurrent.TimeUnit;
 
 /**
+ * -Xms10M -Xmx10M -verbose:gc
  * @author Xief
  */
 public class TestSoftReference {
