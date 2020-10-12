@@ -10,16 +10,16 @@ public class CpuMess {
     int y = -1;
 
     /**
-     *  a=1 x=b b=2 y=a
-     *
-     *  a=1 b=2 x=b y=a
-     *
-     *  a=1 b=2 y=a x=b
-     *
-     *  b=2 y=a a=1 x=b
-     *
-     *
-     *  x=b y=a a=1 b=2
+     * a=1 x=b b=2 y=a
+     * <p>
+     * a=1 b=2 x=b y=a
+     * <p>
+     * a=1 b=2 y=a x=b
+     * <p>
+     * b=2 y=a a=1 x=b
+     * <p>
+     * <p>
+     * x=b y=a a=1 b=2
      */
 
     public void path1() {
@@ -57,10 +57,10 @@ public class CpuMess {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        for(int i=0; i<=1000000000; i++){
+        for (int i = 0; i <= 1000000000; i++) {
             CpuMess cpuMess = new CpuMess();
             boolean b = cpuMess.test();
-            if(!b){
+            if (!b) {
                 System.out.println(i);
             }
         }
