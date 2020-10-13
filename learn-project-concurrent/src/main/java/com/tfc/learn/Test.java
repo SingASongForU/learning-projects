@@ -25,6 +25,7 @@ public class Test {
         });
         ThreadLocal<Object> threadLocal=new ThreadLocal<Object>();
         threadLocal.set(new Object());
+        threadLocal.get();
         a.start();
     }
 }
