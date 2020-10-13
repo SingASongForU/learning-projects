@@ -23,6 +23,8 @@ public class Test {
         Thread a = new Thread(() -> {
             System.err.println(Test.getInstance());
         });
+        ThreadLocal<Object> threadLocal=new ThreadLocal<Object>();
+        threadLocal.set(new Object());
         a.start();
     }
 }

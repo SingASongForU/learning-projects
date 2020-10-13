@@ -11,8 +11,6 @@ public class LessonOne {
     public static void main(String[] args) throws InterruptedException {
         Object o = new Object();
         print(o);
-//		o.hashCode();
-//		print(o);
 //		printSyn(o);
 
     }
